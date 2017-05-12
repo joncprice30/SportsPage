@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" type="text/css" href="app.css">
+<script src="app.js"></script>
+</head>
+<body>
+  <div class = "background">
+  <div class = "header">
+    <div class ="buttons">
+      <div class="home">
+        <button class="button">HOME</button>
+      </div>
+      <div class="profile">
+        <button class = "button">
+        <a href="file:///home/chronos/u-e3a95d0921a4b1d03937b459c9647e628cf9b076/Downloads/profile.html">PROFILE</a>
+        </button>
+      </div>
+      <div class="conversation">
+        <button class="button">
+           <a href="  file:///home/chronos/u-e3a95d0921a4b1d03937b459c9647e628cf9b076/Downloads/convo.html">CONVO</a>
+        </button>
+      </div>
+    </div>
+    
+    <div class ="log">
+     <button type="button" class = "btn btn-primary" onclick="signIn();"><i class ="fa fa-google-plus"></i> Sign In with Google</button>
+    </div>
+  </div>
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBDP5NNYFf9dhrlFJVjOlbtjY95z9ZgPIo",
+    authDomain: "sportspage-350b4.firebaseapp.com",
+    databaseURL: "https://sportspage-350b4.firebaseio.com",
+    projectId: "sportspage-350b4",
+    storageBucket: "sportspage-350b4.appspot.com",
+    messagingSenderId: "189876972131"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src = "https://apis.google.com/js/platform.js" async defer></script>
+  
+  <div class = "body">
+    
+    <div class = "news">
+      <div class = "news-NFL">
+        With the 2017 NFL Draft over, teams are ready to begin the offseason. During the draft, many great young prospects were taken. The best player to watch out for, is the Number One pick, taken by the Cleveland Browns. Miles Garrett. This defensive animal will be taking the Cleveland Browns in a new direction next season along side with two other first round picks for the Browns.
+        
+      <img src="http://www.nfl.com/static/content/public/photo/2017/01/16/0ap3000000775383.jpg" alt="Mountain View" style="width:320px;height:80px;">
+      
+      </div>
+      <div class = "news-NBA">
+        During the second round of the playoffs, Spurs all Star Forward will not play during the game 6 matchup with, the Houston Rockets. He has been dealing with ankle injury that happened in game 5. We hope for a fast recovery for Kawhi Leonard.
+      
+      <img src="http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F1128%2Fr31181_1296x729_16-9.jpg" alt="Mountain View" style="width:320px;height:140px;">
+      </div>
+      <div class = "news-NHL">
+        Two Game 7s were played the night of the 10th. This included Ducks vs Oilers and Penguins vs Capitals. Both the Oilers and Penguins won their game seven and are now advancing to the next round.
+        
+        <img src="http://boards.sportslogos.net/uploads/monthly_2017_03/Stanley-Cup-2017.png.5d2fe03586b3efddc01bd98816160298.png" alt="Mountain View" style="width:320px;height:140px;">
+      </div>
+      <div class = "news-MLB">
+        Earlier this week, MLB fans all around the country stayed up late to finish the game between, the Chicago Cubs and the New York Yankees. The game lasted 18 innings until finally the Yankees got a run, ending the game with a 5-4 win. This game set many records, like the most strikeouts in a game.
+<img src="http://sas.suplitodomedia.com/articles_images/GamblersPalace/CH-CUBS-vs.-NY-YANKEES.jpg" alt="Mountain View" style="width:320px;height:120px;">
+      </div>
+    </div>
+    
+    
+    
+    
+  </div>
+  </div>
+
+
+</body>
+
+</html>

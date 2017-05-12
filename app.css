@@ -1,0 +1,126 @@
+.background{
+  background-color: grey;
+  height: 600px;
+  width: 1340px;
+}
+
+.header {
+  background-image: url("http://freewallpaper99.com/wp-content/uploads/2016/12/ppt-backgrounds-ppt-templates-slides-free-ppt-backgrounds-intended-for-cool-background-templates.jpg");
+  height: 100px;
+  width: 1340px;
+
+}
+
+.buttons {
+  float:right;
+  height: 100px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  
+}
+.button:hover {background-color: black}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.home {
+  float:right;
+  height: 32px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.profile {
+  float:right;
+  height: 31px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.conversation {
+  float:right;
+  height: 31px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 6px 102px;
+    font-size: 16px;
+   
+}
+
+.log {
+   background-color: red;
+    border: none;
+    color: white;
+    
+    font-size: 20px;
+   height: 50px;
+  width: 200px;
+   border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: center;
+  
+}
+
+.news {
+  height: 250px;
+  width: 1340px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.news-NFL {
+  height: 248px;
+  width: 332px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  float: left;
+  color: white;
+ text-align: center;
+}
+.news-NBA {
+  height: 248px;
+  width: 332px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  float: left;
+ color: white;
+ text-align: center;
+}
+.news-NHL {
+  height: 248px;
+  width: 332px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  float: left;
+   color: white;
+ text-align: center;
+}
+.news-MLB {
+  height: 248px;
+  width: 332px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  float: left;
+   color: white;
+ text-align: center;
+}
